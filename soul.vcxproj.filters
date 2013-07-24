@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{63770b9e-023d-4887-9fc2-bc5e0e9a7997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\parser">
+      <UniqueIdentifier>{814330ce-d3a0-4835-a572-c8e7451508b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\syntax_tree">
+      <UniqueIdentifier>{dceaab9f-39ac-4f22-a0f3-1e2614ad57c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\driver">
+      <UniqueIdentifier>{f3acfe8c-9a3c-412e-9883-205133d81ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{e517a030-5dca-4c38-8c3b-c5ef3263c989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\driver">
+      <UniqueIdentifier>{b24e9451-e62b-4ce5-852d-4ebe9ceb5a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\syntax_tree">
+      <UniqueIdentifier>{f821df15-b49b-45f8-908c-78d1dbf1ab96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\parser">
+      <UniqueIdentifier>{36c93443-8bb6-40a5-b343-3543ee4773e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enums">
+      <UniqueIdentifier>{1adb177d-4672-4ff7-bed6-16c85cc0d090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enums">
+      <UniqueIdentifier>{14320adf-8766-4d06-9cd9-c60b0de7eeb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soul\include\common\common_fwd.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\common\diag_chat.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\common\diag_formatter.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\common\diag_item.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\common\lex_context.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\common\token.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\diags.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\error_handlers.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\generator.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\grammars.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\lexer.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\parser_forward.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\parser\parse_api.h">
+      <Filter>Header Files\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\identifier.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\node.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\node_creation.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\parse_api.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\program.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\statement.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\syntax_tree_builder.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\syntax_tree_fwd.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\utility.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\visitor.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\declaration.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\syntax_tree\expression.h">
+      <Filter>Header Files\syntax_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\options.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\code_sources.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\compiler.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\compiler_diags.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\compiler_impl.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\compiler_lib.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\drivers_api.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\include\drivers\drivers_forward.h">
+      <Filter>Header Files\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\builtin_types.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\default_hasher.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\enum_base.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\enums_utility.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\jump_mode.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\literal_classifications.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\node_ids.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\operators.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\storage_mode.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\token_types.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="soul\enums\type_qualifiers.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="soul\src\parser\diags.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\parser\error_handlers.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\parser\generator.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\parser\grammars.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\parser\lexer.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\parser\parse_api.cpp">
+      <Filter>Source Files\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\drivers\code_sources.cpp">
+      <Filter>Source Files\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\drivers\compiler_diags.cpp">
+      <Filter>Source Files\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\drivers\compiler_impl.cpp">
+      <Filter>Source Files\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\drivers\compiler_lib.cpp">
+      <Filter>Source Files\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\drivers\options.cpp">
+      <Filter>Source Files\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\common\diag_chat.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\common\diag_formatter.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\common\diag_item.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\common\token.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\declaration.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\expression.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\identifier.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\instanciate.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\node.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\parse_api.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\program.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\statement.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\syntax_tree_builder.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\src\syntax_tree\utility.cpp">
+      <Filter>Source Files\syntax_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="soul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\builtin_types.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\enums_utility.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\jump_mode.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\literal_classifications.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\node_ids.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\operators.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\storage_mode.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\token_types.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+    <ClCompile Include="soul\enums\type_qualifiers.cpp">
+      <Filter>Source Files\enums</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

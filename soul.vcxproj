@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soul\enums\builtin_types.h" />
+    <ClInclude Include="soul\enums\default_hasher.h" />
+    <ClInclude Include="soul\enums\enums_utility.h" />
+    <ClInclude Include="soul\enums\enum_base.h" />
+    <ClInclude Include="soul\enums\jump_mode.h" />
+    <ClInclude Include="soul\enums\literal_classifications.h" />
+    <ClInclude Include="soul\enums\node_ids.h" />
+    <ClInclude Include="soul\enums\operators.h" />
+    <ClInclude Include="soul\enums\storage_mode.h" />
+    <ClInclude Include="soul\enums\token_types.h" />
+    <ClInclude Include="soul\enums\type_qualifiers.h" />
+    <ClInclude Include="soul\include\common\common_fwd.h" />
+    <ClInclude Include="soul\include\common\diag_chat.h" />
+    <ClInclude Include="soul\include\common\diag_formatter.h" />
+    <ClInclude Include="soul\include\common\diag_item.h" />
+    <ClInclude Include="soul\include\common\lex_context.h" />
+    <ClInclude Include="soul\include\common\token.h" />
+    <ClInclude Include="soul\include\drivers\code_sources.h" />
+    <ClInclude Include="soul\include\drivers\compiler.h" />
+    <ClInclude Include="soul\include\drivers\compiler_diags.h" />
+    <ClInclude Include="soul\include\drivers\compiler_impl.h" />
+    <ClInclude Include="soul\include\drivers\compiler_lib.h" />
+    <ClInclude Include="soul\include\drivers\drivers_api.h" />
+    <ClInclude Include="soul\include\drivers\drivers_forward.h" />
+    <ClInclude Include="soul\include\drivers\options.h" />
+    <ClInclude Include="soul\include\parser\diags.h" />
+    <ClInclude Include="soul\include\parser\error_handlers.h" />
+    <ClInclude Include="soul\include\parser\generator.h" />
+    <ClInclude Include="soul\include\parser\grammars.h" />
+    <ClInclude Include="soul\include\parser\lexer.h" />
+    <ClInclude Include="soul\include\parser\parser_forward.h" />
+    <ClInclude Include="soul\include\parser\parse_api.h" />
+    <ClInclude Include="soul\include\syntax_tree\declaration.h" />
+    <ClInclude Include="soul\include\syntax_tree\expression.h" />
+    <ClInclude Include="soul\include\syntax_tree\identifier.h" />
+    <ClInclude Include="soul\include\syntax_tree\node.h" />
+    <ClInclude Include="soul\include\syntax_tree\node_creation.h" />
+    <ClInclude Include="soul\include\syntax_tree\parse_api.h" />
+    <ClInclude Include="soul\include\syntax_tree\program.h" />
+    <ClInclude Include="soul\include\syntax_tree\statement.h" />
+    <ClInclude Include="soul\include\syntax_tree\syntax_tree_builder.h" />
+    <ClInclude Include="soul\include\syntax_tree\syntax_tree_fwd.h" />
+    <ClInclude Include="soul\include\syntax_tree\utility.h" />
+    <ClInclude Include="soul\include\syntax_tree\visitor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="soul.cpp" />
+    <ClCompile Include="soul\enums\builtin_types.cpp" />
+    <ClCompile Include="soul\enums\enums_utility.cpp" />
+    <ClCompile Include="soul\enums\jump_mode.cpp" />
+    <ClCompile Include="soul\enums\literal_classifications.cpp" />
+    <ClCompile Include="soul\enums\node_ids.cpp" />
+    <ClCompile Include="soul\enums\operators.cpp" />
+    <ClCompile Include="soul\enums\storage_mode.cpp" />
+    <ClCompile Include="soul\enums\token_types.cpp" />
+    <ClCompile Include="soul\enums\type_qualifiers.cpp" />
+    <ClCompile Include="soul\src\common\diag_chat.cpp" />
+    <ClCompile Include="soul\src\common\diag_formatter.cpp" />
+    <ClCompile Include="soul\src\common\diag_item.cpp" />
+    <ClCompile Include="soul\src\common\token.cpp" />
+    <ClCompile Include="soul\src\drivers\code_sources.cpp" />
+    <ClCompile Include="soul\src\drivers\compiler_diags.cpp" />
+    <ClCompile Include="soul\src\drivers\compiler_impl.cpp" />
+    <ClCompile Include="soul\src\drivers\compiler_lib.cpp" />
+    <ClCompile Include="soul\src\drivers\options.cpp" />
+    <ClCompile Include="soul\src\parser\diags.cpp" />
+    <ClCompile Include="soul\src\parser\error_handlers.cpp" />
+    <ClCompile Include="soul\src\parser\generator.cpp" />
+    <ClCompile Include="soul\src\parser\grammars.cpp" />
+    <ClCompile Include="soul\src\parser\lexer.cpp" />
+    <ClCompile Include="soul\src\parser\parse_api.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\declaration.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\expression.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\identifier.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\instanciate.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\node.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\parse_api.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\program.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\statement.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\syntax_tree_builder.cpp" />
+    <ClCompile Include="soul\src\syntax_tree\utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="eflib.vcxproj">
+      <Project>{dcb2847b-d8af-4e4e-9641-9eca4226c795}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6A2A50A6-B55C-409B-8B3F-0CA81B7BE890}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>soul</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Programming\Library\boost_1_53_0;$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
